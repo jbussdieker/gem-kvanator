@@ -8,10 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Kvanator::VERSION
   spec.authors       = ["Joshua Bussdieker"]
   spec.email         = ["jbussdieker@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.description   = %q{Abstract KV library}
+  spec.summary       = %q{Abstract KV library with configurable backends}
+  spec.homepage      = "https://github.com/jbussdieker/gem-kvanator"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
